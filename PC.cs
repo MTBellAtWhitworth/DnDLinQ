@@ -17,16 +17,12 @@ class PC {
     //PCs can multiclass
     public List<ClassLvl> classLvls = new List<ClassLvl>();
 
-    //Classes can be turned into a long string!
-    public string Classes {
-        get {
-            string roles = "";
-            foreach(ClassLvl c in classLvls) {
-                roles += c.Class + " " + c.Level + " ";
-            }
-            return roles;
-        }
-    }
+    //Hint: Classes can be turned into a long string!
+    //public string Classes {
+    //    get {
+            //How would you write this?
+    //    }
+    //}
 
     public PC(Player p, string name="Epic Hero", string race="Human", string ClassN="Wimp") {
         Owner = p;

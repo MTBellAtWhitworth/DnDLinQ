@@ -42,11 +42,12 @@ foreach(var elf in elvishPCs) {
 }
 
 //Now it's your turn! Try grabbing all the rangers!
+//Hint: you need to add a custom getter to class PC to retrieve all the classes
+//  (try making a string)!
 Console.WriteLine("And now getting rangers");
-var rangerPCs = from r in myCampaign
-                where r.Classes.Contains("Ranger")
-                select r;
-foreach(var ranger in rangerPCs) {
-    Console.WriteLine(ranger.ToString());
-}
+//Put your LinQ query here!
+
+//Finally, print it out!
+
+//Now try doing the same things as above, but using Lambda syntax. See the textbook!
 
