@@ -1,11 +1,13 @@
 ﻿////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+
+//First make the players
+using System.Runtime.CompilerServices;
+
 ///A series of LINQ queries for illustrating their power
 ///on a collection of D&D players in a campaign!
 ///Written by M.Bell, 2024 and inspired by J.Battista, 2019
-////////////////////////////////////////////////////////
 ///
-
-//First make the players
 Player matt = new Player("Matt", "Bell", "mbell@whitworth.edu", "509-777-3472");
 Player chris = new Player("Chris", "", "", "");
 Player sierra = new Player("Sierra", "", "", "");
@@ -51,3 +53,20 @@ Console.WriteLine("And now getting rangers");
 
 //Now try doing the same things as above, but using Lambda syntax. See the textbook!
 
+
+//This bit just in here to test indexers. Try your hand at it!
+//Use LinQ to get anyone who is multiclassed:
+var MCers = from mc in myCampaign
+            where mc.classLvls.Count > 1
+            select mc;
+
+foreach(var mc in MCers) {
+    Console.WriteLine("My name is {0}. I am a: ", mc.Name);
+    for(int i = 0; i < mc.classLvls.Count; ++i) {
+        string curClass = mc[i].Class;
+        int curLvl = mc[i].Level;
+        Console.Write("{0} of level {1} ",
+                curClass, curLvl);
+    }
+    Console.WriteLine(" and my race is {0}", mc.Race);
+}

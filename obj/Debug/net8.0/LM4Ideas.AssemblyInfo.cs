@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LM4Ideas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bff085ed5721546ac2319ee2fe2f6e38fae8d150")]
 [assembly: System.Reflection.AssemblyProductAttribute("LM4Ideas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LM4Ideas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

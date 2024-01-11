@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mattt\\OneDrive\\Research and Course Development\\WindowsAppsDev2024\\LINQsperiments\\LM4IDeas\\LM4Ideas.csproj": {}
+    "H:\\CS371_ Windows Apps Dev\\DnDLinQ\\DnDLinQ\\LM4Ideas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mattt\\OneDrive\\Research and Course Development\\WindowsAppsDev2024\\LINQsperiments\\LM4IDeas\\LM4Ideas.csproj": {
+    "H:\\CS371_ Windows Apps Dev\\DnDLinQ\\DnDLinQ\\LM4Ideas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mattt\\OneDrive\\Research and Course Development\\WindowsAppsDev2024\\LINQsperiments\\LM4IDeas\\LM4Ideas.csproj",
+        "projectUniqueName": "H:\\CS371_ Windows Apps Dev\\DnDLinQ\\DnDLinQ\\LM4Ideas.csproj",
         "projectName": "LM4Ideas",
-        "projectPath": "C:\\Users\\mattt\\OneDrive\\Research and Course Development\\WindowsAppsDev2024\\LINQsperiments\\LM4IDeas\\LM4Ideas.csproj",
-        "packagesPath": "C:\\Users\\mattt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mattt\\OneDrive\\Research and Course Development\\WindowsAppsDev2024\\LINQsperiments\\LM4IDeas\\obj\\",
+        "projectPath": "H:\\CS371_ Windows Apps Dev\\DnDLinQ\\DnDLinQ\\LM4Ideas.csproj",
+        "packagesPath": "C:\\Users\\mbell\\.nuget\\packages\\",
+        "outputPath": "H:\\CS371_ Windows Apps Dev\\DnDLinQ\\DnDLinQ\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mattt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mbell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

@@ -24,6 +24,15 @@ class PC {
     //    }
     //}
 
+    //Hint: There are even more sophisticated ways of doing
+    //the above. Can you think of any?
+
+    //Here's an indexer method, added on 1/11. See T&J 11.
+    public ClassLvl this[int idx] {
+        get => classLvls[idx];
+        set => classLvls[idx].Level++;
+    }
+
     public PC(Player p, string name="Epic Hero", string race="Human", string ClassN="Wimp") {
         Owner = p;
         Name = name;
